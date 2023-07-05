@@ -17,6 +17,11 @@ li{
   list-style: none;
 }
 
+button{
+  border: none; 
+  outline: none
+}
+
 :root{
   --index: calc(1vw + 1vh);
 }
@@ -24,7 +29,7 @@ li{
 body{
   font-family: 'Rubik', sans-serif;
   color: #767877;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .header__content{
@@ -88,4 +93,88 @@ body{
 
 .header__phone-call{
   margin-bottom: 7px;
+}
+
+.cleaning{
+  height: 90vh;
+  background-color: #DBEBF8;
+  padding-top: 17px;
+  margin-bottom: 120px;
+}
+
+.cleaning__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cleaning__info{
+  width: 60%;
+}
+
+.cleaning__title{
+  margin-bottom: 60px;
+}
+
+.cleaning__suptitle{
+  font-size: calc(var(--index)*3.8);
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #050931;
+  margin-bottom: 22px;
+}
+
+.cleaning__text{
+  font-size: calc(var(--index)*1.1);
+  line-height: 1.2;
+  width: 85%;
+  margin-bottom: 48px;
+}
+
+.cleaning__btn{
+  font-size: calc(var(--index)*0.9);
+  font-weight: 500;
+  color: #fff;
+  background-color: #1F6BFF;
+  padding: 18px 40px;
+  border-radius: 4px;
+  transition: all 0.2s linear;
+
+  
+}
+
+.cleaning__btn:hover{
+  transform: scale(1.02);
+  background-color: #0D4FD0;
+}
+
+.cleaning__btn:active{
+  transform: scale(0.98);
+}
+
+.cleaning__illustration-wrapper{
+  width: 43.86%;
+}
+
+.cleaning__illustration-img{
+  width: 100%;
+}
+
+.cleaning__statistic-list{
+  display: flex;
+  gap: 60px;
+}
+
+.cleaning__statistic-count{
+  font-size: calc(var(--index)*1.9);
+  font-weight: 700;
+  color: #050931;
+  margin-bottom: 12px;
+}
+
+.cleaning__statistic-text{
+  font-size: calc(var(--index)*0.85);
+  font-weight: 400;
+  color: #647685;
 }
