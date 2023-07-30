@@ -12,84 +12,108 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="header__content">
-        <a class="header__logo" href="#">
-          <img class="header__logo-img" src="pictures/icons/logo.png" alt="cleaning logo">
-        </a>
-        <nav class="header_navigation">
-          <ul class="navigation__list">
-            <li class="navigation__list-item">
-              <a class="navigation__list-link navigation__list-link--active" href="">Home</a>
-            </li>
-            <li class="navigation__list-item">
-              <a class="navigation__list-link" href="">About</a>
-            </li>
-            <li class="navigation__list-item">
-              <a class="navigation__list-link" href="">Services</a>
-            </li>
-            <li class="navigation__list-item">
-              <a class="navigation__list-link" href="">Blog</a>
-            </li>
-            <li class="navigation__list-item">
-              <a class="navigation__list-link" href="">Testimonials</a>
-            </li>
-            <li class="navigation__list-item">
-              <a class="navigation__list-link" href="">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header__phone">
-          <img class="header__phone-icon" src="pictures/icons/phone.png" alt="phone icon">
-          <div class="header__phone-info">
-            <p class="header__phone-call">Call us now</p>
-            <a class="header__phone-link" href="tel:+12434214121">+1 (243) 421 4121</a>
-          </div>
-        </div>
+  <header class="header container">
+    <!-- <div class="container"> -->
+    <!-- <div class="header__content"> -->
+    <a class="header__logo" href="#">
+      <img class="logo__img" src="pictures/icons/logo.png" alt="cleaning logo">
+    </a>
+    <nav class="header_navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link navigation__link--active" href="">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">About</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Services</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Blog</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Testimonials</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__phone">
+      <img class="phone-icon" src="pictures/icons/phone.png" alt="phone icon">
+      <div class="phone-info">
+        <p class="phone-info__call">Call us now</p>
+        <a class="phone-info__number" href="tel:+12434214121">+1 (243) 421 4121</a>
       </div>
     </div>
+    <!-- </div> -->
+    <!-- </div> -->
   </header>
 </body>
 <main>
   <section class="cleaning">
-    <div class="container">
+    <!-- <div class="container"> -->
+    <div class="cleaning__inner container">
       <div class="cleaning__content">
         <div class="cleaning__info">
           <div class="cleaning__title">
             <h1 class="cleaning__suptitle">Cleaning Service
               From World Class
               Agency.</h1>
-            <p class="cleaning__text">Our services go beyond the basic services and provide you with clean your home and
+            <p class="cleaning__subtitle">Our services go beyond the basic services and provide you with clean your home and
               enhance your life.</p>
-              <button class="cleaning__btn">Learn More</button>
+            <button class="button">Learn More</button>
           </div>
           <div class="cleaning__statistic">
-            <ul class="cleaning__statistic-list">
-              <li class="cleaning__statistic-item">
-                <p class="cleaning__statistic-count">345</p>
-                <p class="cleaning__statistic-text">Project Done</p>
+            <ul class="statistic__list">
+              <li class="statistic__item">
+                <p class="statistic__count">345</p>
+                <p class="statistic__text">Project Done</p>
               </li>
-              <li class="cleaning__statistic-item">
-                <p class="cleaning__statistic-count">1450+</p>
-                <p class="cleaning__statistic-text">Satisfied Clients</p>
+              <li class="statistic__item">
+                <p class="statistic__count">1450+</p>
+                <p class="statistic__text">Satisfied Clients</p>
               </li>
-              <li class="cleaning__statistic-item">
-                <p class="cleaning__statistic-count">100+</p>
-                <p class="cleaning__statistic-text">Awards Winner</p>
+              <li class="statistic__item">
+                <p class="statistic__count">100+</p>
+                <p class="statistic__text">Awards Winner</p>
               </li>
-              <li class="cleaning__statistic-item">
-                <p class="cleaning__statistic-count">40+</p>
-                <p class="cleaning__statistic-text">Team Members</p>
+              <li class="statistic__item">
+                <p class="statistic__count">40+</p>
+                <p class="statistic__text">Team Members</p>
               </li>
             </ul>
           </div>
         </div>
-        <div class="cleaning__illustration-wrapper">
-          <img class="cleaning__illustration-img" src="pictures/illustrations/main-illustration.png" alt="main-illustration image">
+        <div class="illustration-wrapper">
+          <img class="cleaning__illustration section-illustration" src="pictures/illustrations/main-illustration.png"
+            alt="main-illustration image">
         </div>
       </div>
     </div>
+    <!-- </div> -->
+  </section>
+  <section class="about container">
+    <!-- <div class="container"> -->
+      <div class="section__title">
+        <p class="section__subject about__subject">
+          About Us
+          <img class="subject-icon" src="pictures/icons/title-element.png" alt="title-element icon">
+        </p>
+        <h2 class="section__suptitle about__suptitle">Why will you choose our Services?</h2>
+        <p class="section__subtitle about__subtitle section__subtitle-first">Our services go beyond the <span>basic
+            services</span> and provide you with a clean the that will <a class="subtitle__link" href="#">Cleaning
+            services</a> of the reenergize your home and enhance your life.</p>
+        <p class="section__subtitle about__subtitle section__subtitle-second">Our services go beyond the basic services
+          and provide you with reenergize your home and enhance your life.</p>
+        <button class="button">Read More</button>
+      </div>
+      <div class="illustration-wrapper about__illustration-wrapper">
+        <img class="section-illustration about__illustration" src="pictures/illustrations/about-illustration.png"
+          alt="about-illustration image">
+      </div>
+    <!-- </div> -->
   </section>
 </main>
 
