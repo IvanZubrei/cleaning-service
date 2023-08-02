@@ -337,3 +337,71 @@ body{
   display: flex;
   margin: 0 auto;
 }
+
+.wework{
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.wework::before{
+  content: '';
+  position: absolute;
+  background: url(../pictures/illustrations/shape.png);
+  width: 220px;
+  height: 220px;
+  right: -10%;
+  top: -34%;
+  z-index: -1;
+}
+
+.wework__title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.wework__suptitle{
+  width: 70%;
+}
+
+.wework__subtitle{
+  width: 35%;
+}
+
+.process__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.process__item{
+  width: 24%;
+  padding: 23px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.process__item:nth-child(1){
+  border-left: 1px solid #FF8345;
+}
+
+.process__item:nth-child(2){
+  border-left: 1px solid #1F6BFF;
+}
+
+.process__item:nth-child(3){
+  border-left: 1px solid #FFCA45;
+}
+
+.process__item:nth-child(4){
+  border-left: 1px solid #37D348;;
+}
+
+.process__subject{
+  font-size: calc(var(--index) * 1.1);
+  color: #1B1E1C;
+  font-weight: 700;
+  margin: 40px 0 16px 0;
+}
